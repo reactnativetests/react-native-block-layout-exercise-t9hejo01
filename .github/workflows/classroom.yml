@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Block layout test
         setup-command: 'npm install '
-        command: npm test
+        command: npx jest
         timeout: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
